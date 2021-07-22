@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <title>Rock, Paper, Scissors!</title>
+  </head>
+  <body>
+    <div class="header">
+      <h1>Rock, Paper, Scissors</h1>
+    </div>
+    <div class="scoreboard">
+      <div id="user-label" class="badge">You</div>
+      <div id="computer-label" class="badge">Enemy</div>
+      <span id="user-score">0</span> - <span id="computer-score">0</span>
+    </div>
+
+    <div class="result">
+      <!-- This Text's Tone Doesn't Fit The Design LOL -->
+      <p id="top-message">Do What You Can To DESTROY Your Enemy!</p>
+    </div>
+    <div class="choices">
+      <div id="rock" class="choice">
+        <img src="IMAGES/rock.png" />
+      </div>
+      <div id="paper" class="choice">
+        <img src="IMAGES/paper.png" />
+      </div>
+      <div id="scissors" class="choice">
+        <img src="IMAGES/scissors.png" />
+      </div>
+    </div>
+    <p id="bottom-message">What Will You Do? Click A Choice Start!</p>
+    <div class="button-container">
+      <button id="restart" onclick="reset();">Restart Game</button>
+    </div>
+    <script src="app.js" charset="UTF-8"></script>
+  </body>
+</html>
